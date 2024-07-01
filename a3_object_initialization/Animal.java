@@ -7,10 +7,10 @@ public class Animal {
 	String color;
 	int age;
 	
-	void initObj(String c, int a)
+	void initObj(String c, int a)	//declaring methods and passing parameters
 	{
-		color = c;
-		age = a;
+		color = c;		//value initialized inside instance variable
+		age = a;		//value initialized inside instance variable
 	}
 	
 	void display()
@@ -21,7 +21,7 @@ public class Animal {
 		// TODO Auto-generated method stub
 		
 		Animal buzo = new Animal();	
-		buzo.initObj("GoldenBrown", 5); ;
+		buzo.initObj("GoldenBrown", 5); ;	//calling the method and passing arguments
 		buzo.display();
 				
 	}
