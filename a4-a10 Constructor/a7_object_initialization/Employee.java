@@ -19,3 +19,8 @@ public class Employee {
 
 }
 
+/*
+o/p:
+Employee 1 : null 0
+Employee 2 : null 0
+*/
