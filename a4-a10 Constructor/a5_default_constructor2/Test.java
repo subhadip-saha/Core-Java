@@ -16,7 +16,7 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Test t = new Test();	//as soon as the object is created,here the ctor directly calls default ctor  
+		Test t = new Test();	//as soon as the object is created, here the ctor directly calls no argument ctor created by programmer 
 		System.out.println(t.i);
 	}
 
