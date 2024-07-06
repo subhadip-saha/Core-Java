@@ -1,4 +1,4 @@
-//default constructor or no argument constructor provided by the programmer
+//no argument constructor created by the programmer
 //here compiler will not create default constructor
 
 package a5_default_constructor2;
