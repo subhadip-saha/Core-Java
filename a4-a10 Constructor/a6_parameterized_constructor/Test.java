@@ -1,4 +1,4 @@
-//parameterized constructor has to be given by programmer
+//parameterized constructor provided by the programmer
 
 package a6_parameterized_constructor;
 
@@ -12,10 +12,10 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//Test t = new Test();		//error: undefined ctor //here default ctor is called but we did not provide default ctor rather we provided param ctor , 
-		//compiler only creates default ctor if programmer does not create any.
+		//Test t = new Test();		//error: undefined ctor //reason: here no argument ctor is called but we did not provide no argument ctor rather we provided param ctor, 
+		//compiler only creates default ctor if the programmer creates none.
 		
-		Test t = new Test(10);
+		Test t = new Test(10); //we have to pass parameter while creating object
 	}
 
 }
