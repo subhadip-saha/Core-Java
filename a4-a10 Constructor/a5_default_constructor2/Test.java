@@ -1,3 +1,5 @@
+//the below program is correct but the file name default_constructor2 is not correct - So, check a5_no_arg_constructor
+
 //no argument constructor created by the programmer
 //here compiler will not create default constructor
 
