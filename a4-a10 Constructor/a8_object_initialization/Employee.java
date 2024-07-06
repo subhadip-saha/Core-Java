@@ -1,5 +1,5 @@
 //Main work of the constructor is - object initialization
-//here default ctor is defined by programmer, so compiler does not add a default ctor.
+//here no arg ctor is defined by programmer, so compiler does not add a default ctor.
 //Also here default values for String and int are assigned
 
 
