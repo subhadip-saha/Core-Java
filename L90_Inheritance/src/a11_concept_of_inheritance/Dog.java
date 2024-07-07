@@ -1,5 +1,7 @@
 package a11_concept_of_inheritance;
 
+
+//without inheritance
 class Animal
 {
 	void eat()
@@ -17,7 +19,7 @@ class Dog
 		// TODO Auto-generated method stub
 
 		Dog d = new Dog();
-		d.eat();					//error: The method eat() is undefined for the type Dog 
+		d.eat();					//error: cannot find symbol: The method eat() is undefined for the class Dog 
 		
 		Animal a = new Animal();
 		a.eat();					//no error: eat() is defined in Animal class, so we can create an object of Animal class
@@ -31,6 +33,7 @@ class Dog
 //So, to remove this error - we have to define same eat() in Dog class also
 
 /*
+
 
 class Dog 
 {
@@ -62,7 +65,7 @@ class Dog
 
 //More efficient solution will be using inheritance - so that we can achieve code re-usability
 
-
+//with inheritance
 class Dog extends Animal						//inheritance is used, code becomes small in size
 {
 
